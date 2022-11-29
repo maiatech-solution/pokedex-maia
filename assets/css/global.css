@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: gray;
+    display: flex;
+    
 }
 
 .content {
@@ -12,6 +14,20 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#title{
+    color: white;
+}
+
+#loadMoreButton{
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
